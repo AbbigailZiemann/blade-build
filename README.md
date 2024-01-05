@@ -1,6 +1,6 @@
 # Blade Build System
 
-[![license NewBSD](https://img.shields.io/badge/License-NewBSD-yellow.svg)](COPYING)
+[ [license NewBSD](https://img.shields.io/badge/License-NewBSD-yellow.svg)](COPYING)
 [![Python](https://img.shields.io/badge/language-python2,3-blue.svg)](https://www.python.org/)
 [![Code Style](https://img.shields.io/badge/code%20style-google-blue.svg)](https://google.github.io/styleguide/pyguide.html)
 [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macos-lightgrey.svg)](doc/en/prerequisites.md)
@@ -37,7 +37,7 @@ The code on the master branch is development version and should be considered as
 Please prefer using the version on the tags in your formal environment.
 We will release the verified version on the large-scale internal code base to the tag from time to time.
 
-* Version 2.0 is in release candidate! It includes the following notable changes:
+# Version 2.0 is in release candidate! It includes the following notable changes:
 
   * minimal python version 2.7, support python 3
   * Support Java, scala building
@@ -118,3 +118,4 @@ blade test -m32 -pdebug common...
 * Some libraries open sourced by Google, such as [protobuf](http://code.google.com/p/protobuf/),
 * [gtest](http://code.google.com/p/googletest/),
 * [gperftools](http://code.google.com/p/gperftools/) are handy and powerful, we have integrated these libraries.
+ 
